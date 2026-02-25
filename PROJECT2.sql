@@ -1,15 +1,8 @@
--- =====================================================
--- Employee Salary & Department Analysis Project
--- =====================================================
-
--- 1️⃣ Create Database
+-- 1️ Create Database
 CREATE DATABASE IF NOT EXISTS employee_analysis_large;
 USE employee_analysis_large;
 
--- =====================================================
--- 2️⃣ Create Tables
--- =====================================================
-
+-- 2️ Create Tables
 -- Drop tables if they already exist (prevents errors)
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS departments;
@@ -31,22 +24,14 @@ CREATE TABLE employees (
     FOREIGN KEY (department_id) REFERENCES departments(department_id)
 );
 
--- =====================================================
--- ⚠ NOW IMPORT CSV FILES USING TABLE DATA IMPORT WIZARD
--- =====================================================
+--  IMPORTING CSV FILES USING TABLE DATA IMPORT WIZARD
+-- 3️ Verification Queries
 
-
--- =====================================================
--- 3️⃣ Verification Queries
--- =====================================================
 
 SELECT COUNT(*) AS total_departments FROM departments;
 SELECT COUNT(*) AS total_employees FROM employees;
 
--- =====================================================
--- 4️⃣ Analysis Queries
--- =====================================================
-
+-- 4️ Analysis Queries
 -- 1. Department-wise Average Salary
 SELECT d.department_name,
        ROUND(AVG(e.salary), 2) AS avg_salary
@@ -99,7 +84,3 @@ FROM employees e
 JOIN departments d ON e.department_id = d.department_id
 GROUP BY d.department_name
 HAVING AVG(e.salary) > 70000;
-
--- =====================================================
--- END OF PROJECT
--- =====================================================
