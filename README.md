@@ -274,19 +274,9 @@ Potential improvements include:
 
 ---
 
-# 👨‍💻 Author
-
-## Prajwal Sortur
-
-**AI/ML • Data Science • Generative AI • Data Analytics**
-
-I'm interested in building practical, data-driven and AI-powered solutions using **Python, SQL, Machine Learning, Generative AI, and modern application technologies**.
-
 ### Connect With Me
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/prajwalsortur/)
 * 🐙 [GitHub](https://github.com/prajwalsortur)
 
 ---
-
-⭐ **If you found this project useful, consider starring the repository!**
