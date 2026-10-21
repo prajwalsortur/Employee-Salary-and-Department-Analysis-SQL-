@@ -258,22 +258,6 @@ Through this project, I strengthened my understanding of:
 
 ---
 
-# 🔮 Future Improvements
-
-Potential improvements include:
-
-* Advanced SQL window functions such as `RANK()` and `DENSE_RANK()`
-* Salary band classification
-* Employee salary benchmarking
-* Department-level KPI analysis
-* SQL query optimization and indexing
-* Advanced HR analytics
-* Interactive Power BI reporting
-* Employee attrition and retention analysis
-* Predictive HR analytics using Machine Learning
-
----
-
 ### Connect With Me
 
 * 💼 [LinkedIn](https://www.linkedin.com/in/prajwalsortur/)
