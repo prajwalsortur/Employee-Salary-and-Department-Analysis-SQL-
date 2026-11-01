@@ -254,13 +254,4 @@ Through this project, I strengthened my understanding of:
 * Salary analysis
 * Business-oriented data analysis
 * Power BI visualization
-* Translating business questions into SQL queries
-
----
-
-### Connect With Me
-
-* 💼 [LinkedIn](https://www.linkedin.com/in/prajwalsortur/)
-* 🐙 [GitHub](https://github.com/prajwalsortur)
-
----
+* Translating business questions into SQL queries.
